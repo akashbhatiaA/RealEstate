@@ -1,0 +1,101 @@
+@import "../../responsive.scss";
+
+.about{
+
+  display: flex;
+  height: 100%;
+
+
+  @include sm {
+
+    height: 60%;
+  }
+
+
+  .textContainer{
+
+    flex: 3;
+
+
+    .aboutus{
+
+      // padding-right: 100px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      // gap: 10px;
+      height: 150px;
+      font-weight: 900;
+    }
+
+      .paragraph{
+        height: 100%;
+        // width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        // font-size: x-large;
+        // font-weight: 900;
+        // gap: 10px;
+        background-color: #f6d582;
+      }
+
+      p{
+        // font-weight: 600;
+        // gap: 10px;
+      }
+      @include lg{
+
+        padding-right: 40px;
+      }
+
+      @include md {
+
+        padding: 0;
+      }
+
+
+
+      
+
+
+    }
+  
+
+  .imgContainer {
+
+    flex: 2;
+    background-color: #fcf5f3;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+    @include md{
+
+      display:none;
+    }
+    @include lg{
+
+      display:none;
+    }
+
+
+    img{
+
+      width: 115%;
+      position: absolute;
+      right:0;
+
+      @include lg{
+
+        display:105%;
+      }
+     
+     
+
+    }
+  }
+}
