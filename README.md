@@ -1,5 +1,5 @@
  REAL ESTATE PROJECT
 
- Sign in credentials-->  username- parasbhatia, 
+ Sign in credentials-->  username- akashbhatia, 
                          password- test1234
                         
